@@ -1,4 +1,5 @@
-###평균 필터(Average Filter)
+
+#평균 필터(Average Filter)
 
 ## 재귀식(Recursive expression) ??
 > 이전 결과를 다시 활용하는 식, 결과를 재사용하기에 계산 효율이 좋다
