@@ -15,4 +15,4 @@
 
 >하지만 이통평균 재귀식을 구현하면 평균필터와 달리 재귀식을 사용하는 이점이 별로 없다. 직전 이동 평균과 가장 오래된 데이터가 필요
 
->[코드 샘플](Moving_average_expression.py)
+>[코드 샘플](Moving_average_filter.py)
