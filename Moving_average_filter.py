@@ -54,7 +54,7 @@ for i in range(1,101):
 
 
     if i % 5 == 0:
-        count += 5
+        count += 100 * random.random()
 
     print(data_queue)
 
