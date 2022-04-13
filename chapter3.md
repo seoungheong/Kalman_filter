@@ -8,13 +8,15 @@
 
 ### 1차 저주파 통과 필터(= 지수 가중(Exponentially weighted) 이동평균 필터)
 
+제귀식 유도 과정
+
 ![image](https://user-images.githubusercontent.com/65435447/163109697-6237b3c2-2887-4f7a-987a-5f30ac2bbce0.png)
 
 ![image](https://user-images.githubusercontent.com/65435447/163110299-662ca7dd-86c8-4370-a06c-838957ff35cb.png)
 
 즉 a^2(1-a) < a(1-a) < 1-a로 이전 측정 데이터일수록 더 작계 계수가 곱해지게 된다.
 
-제귀식 유도 과정
-
 [샘플코드](Low_pass_filter.py)
 
+# 참고
+> alpha값이 작을수록 잡음의 영향이 크고 alpha값이 클수록 잡음의 영향이 적다 (0<a<1)
