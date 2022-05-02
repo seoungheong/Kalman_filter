@@ -6,7 +6,7 @@
 > 
 > ![image](https://user-images.githubusercontent.com/65435447/166209114-f897aeac-ea1c-4ef1-8f85-7c2035733cbe.png)
 >
-> 코드 1
+> [코드 1](gyro_kalmanfilter.py)
 
 > #### 가속도계를 이용하여 자세 결정하기
 > 
@@ -38,7 +38,7 @@
 > 
 > 움직이는 속도가 충분히 느리거나 속도의 크기와 방향이 빠르게 변하지 않는다면 위의 식으로 수평 자세를 구할 수 있습니다.
 > 
-> 코드2
+> [코드2](accel_kalmanfilter.py)
 
 > #### 센서 융합을 통해 자세 결정하기
 > 
@@ -78,7 +78,7 @@
 >   
 > ![image](https://user-images.githubusercontent.com/65435447/166237706-bfd44dd8-9f3d-4a28-b9d1-93eeeeeff374.png)
 >
->  코드3
+>  [코드3](kalmanfilter_euler.py)
 
 
 
